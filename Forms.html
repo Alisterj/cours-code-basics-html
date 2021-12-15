@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+
+<body>
+	<form action="/people">
+		<input type="text">
+		<input type="text">
+		<div>
+			<div>
+				<label>
+					<input type="checkbox" name="languages" value="html">
+					html
+				</label>
+			</div>
+			<div>
+				<label>
+					<input type="checkbox" name="languages" value="css">
+					css
+				</label>
+			</div>
+		</div>
+		<div>
+			<div>
+				<label>
+					<input type="radio" name="gender" value="girl">
+					girl
+				</label>
+			</div>
+			<div>
+				<label>
+					<input type="radio" name="gender" value="boy">
+					boy
+				</label>
+			</div>
+		</div>
+		<div>
+			<textarea rows="4" cols="30"></textarea>
+		</div>
+		<div>
+			<select>
+				<option>html</option>
+				<option>css</option>
+				<option>js</option>
+			</select>
+		</div>
+
+		<!-- button add lesson -->
+
+		<div>
+			<label>Name
+				<input type="text">
+			</label>
+			<label>Email
+				<input type="text">
+			</label>
+		</div>
+		<div>
+			<select multiple>
+				<option disabled>Выбирай</option>
+				<option>html</option>
+				<option>css</option>
+				<option>js</option>
+			</select>
+		</div>
+		<button type="submit">Отправить</button>
+	</form>
+
+</body>
+
+</html>
